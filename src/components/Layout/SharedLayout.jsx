@@ -8,10 +8,20 @@ const SharedLayout = () => {
     <div className={css.Container}>
       <div className={css.Header}>
         <nav className={css.Nav}>
-          <NavLink className={css.NavLink} to="/">
+          <NavLink
+            to="/"
+            className={({ isActive }) =>
+              isActive ? css.activeNavLink : css.NavLink
+            }
+          >
             Home
           </NavLink>
-          <NavLink className={css.NavLink} to="/movies">
+          <NavLink
+            to="/movies"
+            className={({ isActive }) =>
+              isActive ? css.activeNavLink : css.NavLink
+            }
+          >
             Movies
           </NavLink>
         </nav>

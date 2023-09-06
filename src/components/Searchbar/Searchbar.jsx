@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
+import { BiSearch } from 'react-icons/bi';
 
 import css from './Searchbar.module.css';
 
@@ -20,6 +21,7 @@ export const Searchbar = ({ onSubmit }) => {
       <header className={css.Searchbar}>
         <form className={css.SearchForm} onSubmit={onSubmitHandler}>
           <button type="submit" className={css.SearchFormButton}>
+            <BiSearch className={css.Icon} size={24} />
             <span className={css.SearchFormButtonLabel}>Search</span>
           </button>
 
@@ -29,7 +31,7 @@ export const Searchbar = ({ onSubmit }) => {
             autoComplete="off"
             name="input"
             autoFocus
-            placeholder="Search movies"
+            placeholder="Search movie"
             value={inputText}
             onInput={onInputChange}
           />

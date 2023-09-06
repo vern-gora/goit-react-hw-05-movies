@@ -8,6 +8,7 @@
   align-items: center;
   min-height: 64px;
   margin-top: 24px;
+  margin-bottom: 24px;
   padding-right: 24px;
   padding-left: 24px;
   padding-top: 12px;
@@ -72,4 +73,8 @@
 .SearchFormInput::placeholder {
   font: inherit;
   font-size: 18px;
+}
+
+.Icon {
+  padding-top: 4px;
 }

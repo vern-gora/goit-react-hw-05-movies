@@ -1,5 +1,6 @@
 .Container {
   max-width: 1280px;
+  padding-top: 8px;
   padding-right: 32px;
   padding-left: 32px;
 }
@@ -9,4 +10,14 @@
   text-decoration: none;
   margin-right: 25px;
   color: #3f51b5;
+}
+
+.activeNavLink {
+  padding: 4px;
+  color: aliceblue;
+  background-color: #3f51b5;
+  font-size: 32px;
+  text-decoration: none;
+  margin-right: 25px;
+  border-radius: 8px;
 }
