@@ -8,7 +8,7 @@ export const MovieList = ({ filmList }) => {
   return (
     <div>
       {filmList.map(elem => (
-        <li key={elem.id} className={css.Nav}>
+        <li key={elem.id} className={css.List}>
           <Link to={`/movies/${elem.id}`} state={{ from: location }}>
             {elem.original_title}
           </Link>

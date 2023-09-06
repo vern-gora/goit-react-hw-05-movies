@@ -1,6 +1,7 @@
 .PosterImg {
   width: 240px;
   height: auto;
+  padding-top: 12px;
 }
 
 .MovieTitle {
