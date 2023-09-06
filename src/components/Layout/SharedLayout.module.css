@@ -1,0 +1,10 @@
+.Container {
+  max-width: 1280px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+
+.NavLink {
+  margin-right: 25px;
+  color: #3f51b5;
+}
