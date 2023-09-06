@@ -19,8 +19,23 @@ const Home = () => {
 
   return (
     <>
-      <h1>Trending today</h1>
-      <ul>
+      <h1
+        style={{
+          paddingTop: '16px',
+          paddingBottom: '16px',
+          textDecoration: 'none',
+          marginRight: '25px',
+          color: '#3f51b5',
+        }}
+      >
+        Trending today
+      </h1>
+      <ul
+        style={{
+          listStyle: 'none',
+          padding: 0,
+        }}
+      >
         <MovieList filmList={filmList} />
       </ul>
     </>

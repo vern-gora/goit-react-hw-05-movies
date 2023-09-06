@@ -5,6 +5,8 @@
 }
 
 .NavLink {
+  font-size: 32px;
+  text-decoration: none;
   margin-right: 25px;
   color: #3f51b5;
 }
